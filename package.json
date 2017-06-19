@@ -1,0 +1,23 @@
+{
+  "name": "productmgmt",
+  "version": "1.0.0",
+  "description": "Product Management API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node debug server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "\"RESTful\""
+  ],
+  "author": "saurabh jain",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.6"
+  }
+}
